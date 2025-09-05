@@ -31,12 +31,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const hdrs = headers();
+  const hdrs = await headers();
   const locale = hdrs.get("x-locale") || "en";
   const dir = hdrs.get("x-dir") || (locale === "fa" ? "rtl" : "ltr");
 

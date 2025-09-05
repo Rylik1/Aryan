@@ -1,0 +1,81 @@
+export type AppLocale = "en" | "fa";
+
+type Dictionary = Record<string, string>;
+
+const en: Dictionary = {
+  "site.name": "Saffron & Song – Iranian Traditional Restaurant, London",
+  "site.tagline": "Authentic Persian cuisine in the heart of London",
+  "nav.home": "Home",
+  "nav.menu": "Menu",
+  "nav.about": "About",
+  "nav.gallery": "Gallery",
+  "nav.reservations": "Reservations",
+  "nav.events": "Events",
+  "nav.contact": "Contact",
+  "cta.reserve": "Reserve a table",
+  "cta.viewMenu": "Explore the menu",
+  "cta.delivery": "Delivery",
+  "footer.hours": "Opening Hours",
+  "footer.subscribe": "Subscribe to newsletter",
+  "form.name": "Name",
+  "form.email": "Email",
+  "form.phone": "Phone",
+  "form.date": "Date",
+  "form.time": "Time",
+  "form.partySize": "Party Size",
+  "form.notes": "Notes",
+  "form.submit": "Submit",
+  "form.success": "Thank you! We will confirm shortly.",
+  "form.error": "Something went wrong. Please try again.",
+  "menu.filters": "Filters",
+  "menu.search.placeholder": "Search dishes",
+  "menu.categories": "Categories",
+  "menu.dietary": "Dietary",
+  "menu.spice": "Heat",
+  "menu.tags.halal": "Halal",
+  "menu.tags.veg": "Vegetarian",
+  "menu.tags.spicy": "Spicy",
+  "favorites": "Favorites",
+};
+
+const fa: Dictionary = {
+  "site.name": "زعفران و ترانه – رستوران سنتی ایرانی، لندن",
+  "site.tagline": "غذاهای اصیل ایرانی در قلب لندن",
+  "nav.home": "خانه",
+  "nav.menu": "منو",
+  "nav.about": "درباره ما",
+  "nav.gallery": "گالری",
+  "nav.reservations": "رزرو",
+  "nav.events": "مراسم",
+  "nav.contact": "تماس",
+  "cta.reserve": "رزرو میز",
+  "cta.viewMenu": "مشاهده منو",
+  "cta.delivery": "سفارش آنلاین",
+  "footer.hours": "ساعات کاری",
+  "footer.subscribe": "عضویت در خبرنامه",
+  "form.name": "نام",
+  "form.email": "ایمیل",
+  "form.phone": "تلفن",
+  "form.date": "تاریخ",
+  "form.time": "ساعت",
+  "form.partySize": "تعداد نفرات",
+  "form.notes": "توضیحات",
+  "form.submit": "ارسال",
+  "form.success": "با تشکر! به‌زودی تأیید می‌کنیم.",
+  "form.error": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید.",
+  "menu.filters": "فیلترها",
+  "menu.search.placeholder": "جستجوی غذاها",
+  "menu.categories": "دسته‌بندی‌ها",
+  "menu.dietary": "رژیمی",
+  "menu.spice": "تندی",
+  "menu.tags.halal": "حلال",
+  "menu.tags.veg": "گیاهی",
+  "menu.tags.spicy": "تند",
+  "favorites": "علاقه‌مندی‌ها",
+};
+
+export function getDictionary(locale: AppLocale): Dictionary {
+  return locale === "fa" ? fa : en;
+}
+
+

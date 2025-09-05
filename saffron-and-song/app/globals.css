@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --saffron: #F4A300;
+  --navy: #0C1B2A;
+  --ivory: #FFF8EF;
+  --pistachio: #7CA982;
+  --background: var(--ivory);
+  --foreground: var(--navy);
+}
+
+@theme inline {
+  --color-saffron: var(--saffron);
+  --color-navy: var(--navy);
+  --color-ivory: var(--ivory);
+  --color-pistachio: var(--pistachio);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: var(--font-heading);
+  --font-body-en: var(--font-body-en);
+  --font-body-fa: var(--font-body-fa);
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-body-fa), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+html[dir="ltr"] body {
+  font-family: var(--font-body-en), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Georgia, Cambria, "Times New Roman", Times,
+    serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Subtle Persian geometric divider as repeating svg background */
+.persian-divider {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M0 20h20V0h20v20H20v20H0V20z' fill='%23FFF8EF'/%3E%3Cpath d='M20 0v20H0v-2h18V0h2zM40 20H20v20h-2V22H0v-2h40v2z' fill='%230C1B2A' fill-opacity='0.08'/%3E%3C/svg%3E");
+}

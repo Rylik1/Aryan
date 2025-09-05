@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {"id":"kebabs","name_en":"Kebabs","name_fa":"کباب"},
+    {"id":"stews","name_en":"Persian Stews","name_fa":"خورش"},
+    {"id":"rice","name_en":"Rice & Specials","name_fa":"برنج و ویژه"},
+    {"id":"apps","name_en":"Appetizers","name_fa":"پیش‌غذا"},
+    {"id":"desserts","name_en":"Desserts","name_fa":"دسر"},
+    {"id":"drinks","name_en":"Drinks","name_fa":"نوشیدنی"}
+  ],
+  "items":[
+    {"id":"ghormeh","cat":"stews","name_en":"Ghormeh Sabzi","name_fa":"قرمه سبزی","desc_en":"Herb stew with kidney beans and dried limes, served with saffron rice.","desc_fa":"خورش سبزی معطر با لوبیا قرمز و لیموعمانی همراه با برنج زعفرانی.","price":16.50,"tags":["halal"],"image":"/images/ghormeh.jpg"},
+    {"id":"fesenjan","cat":"stews","name_en":"Fesenjan","name_fa":"فسنجان","desc_en":"Walnut & pomegranate stew with chicken.","desc_fa":"خورش گردو و رب انار با مرغ.","price":17.95,"tags":["halal"],"image":"/images/fesenjan.jpg"},
+    {"id":"joojeh","cat":"kebabs","name_en":"Joojeh Kebab","name_fa":"جوجه کباب","desc_en":"Saffron-marinated chicken, grilled, with grilled tomato.","desc_fa":"مرغ مزه‌دار شده با زعفران، گریل شده با گوجه.","price":15.95,"tags":["halal","gf"],"image":"/images/joojeh.jpg"},
+    {"id":"koobideh","cat":"kebabs","name_en":"Koobideh Kebab","name_fa":"کوبیده","desc_en":"Two skewers of minced lamb, sumac, saffron rice.","desc_fa":"دو سیخ کباب کوبیده با سماق و برنج زعفرانی.","price":14.95,"tags":["halal"],"image":"/images/koobideh.jpg"},
+    {"id":"barg","cat":"kebabs","name_en":"Barg Kebab","name_fa":"کباب برگ","desc_en":"Marinated lamb fillet, grilled to perfection.","desc_fa":"فیله گوشت گوسفند مزه‌دار شده، کاملاً گریل شده.","price":19.95,"tags":["halal","gf"],"image":"/images/barg.jpg"},
+    {"id":"tahchin","cat":"rice","name_en":"Tahchin","name_fa":"ته‌چین","desc_en":"Baked saffron rice cake with chicken and barberries.","desc_fa":"کیک برنجی زعفرانی با مرغ و زرشک.","price":16.95,"tags":["halal"],"image":"/images/tahchin.jpg"},
+    {"id":"zereshk-polo","cat":"rice","name_en":"Zereshk Polo","name_fa":"زرشک پلو","desc_en":"Saffron rice with barberries, served with chicken.","desc_fa":"برنج زعفرانی با زرشک، سرو شده با مرغ.","price":15.50,"tags":["halal","gf"],"image":"/images/zereshk.jpg"},
+    {"id":"mastokhiar","cat":"apps","name_en":"Mast-o Khiar","name_fa":"ماست و خیار","desc_en":"Yoghurt with cucumber, mint, walnuts, raisins.","desc_fa":"ماست با خیار، نعنا، گردو و کشمش.","price":5.50,"tags":["veg","gf"],"image":"/images/mastokhiar.jpg"},
+    {"id":"kashke-bademjan","cat":"apps","name_en":"Kashke Bademjan","name_fa":"کشک بادمجان","desc_en":"Fried aubergine with whey, walnuts, and mint.","desc_fa":"بادمجان سرخ‌شده با کشک، گردو و نعنا.","price":7.95,"tags":["veg"],"image":"/images/kashke.jpg"},
+    {"id":"dolmeh","cat":"apps","name_en":"Dolmeh","name_fa":"دلمه","desc_en":"Vine leaves stuffed with rice and herbs.","desc_fa":"برگ مو پر شده با برنج و سبزیجات.","price":6.95,"tags":["veg","gf"],"image":"/images/dolmeh.jpg"},
+    {"id":"sholeh","cat":"desserts","name_en":"Sholeh Zard","name_fa":"شله‌زرد","desc_en":"Saffron rice pudding with rosewater and pistachio.","desc_fa":"فرنی برنج زعفرانی با گلاب و پسته.","price":6.50,"tags":["veg","gf"],"image":"/images/sholeh.jpg"},
+    {"id":"baklava","cat":"desserts","name_en":"Persian Baklava","name_fa":"باقلوا","desc_en":"Layers of filo pastry with almonds and rosewater syrup.","desc_fa":"لایه‌های خمیر فیلو با بادام و شربت گلاب.","price":5.95,"tags":["veg"],"image":"/images/baklava.jpg"},
+    {"id":"faloodeh","cat":"desserts","name_en":"Faloodeh","name_fa":"فالوده","desc_en":"Persian vermicelli sorbet with lime and rosewater.","desc_fa":"سوربه رشته‌ای ایرانی با لیمو و گلاب.","price":6.95,"tags":["veg","gf"],"image":"/images/faloodeh.jpg"},
+    {"id":"doogh","cat":"drinks","name_en":"Doogh","name_fa":"دوغ","desc_en":"Minty yoghurt drink.","desc_fa":"نوشیدنی ماست با نعنا.","price":3.95,"tags":["veg","gf"]},
+    {"id":"chai","cat":"drinks","name_en":"Persian Tea","name_fa":"چای ایرانی","desc_en":"Traditional Persian black tea with cardamom.","desc_fa":"چای سیاه سنتی ایرانی با هل.","price":3.50,"tags":["veg","gf"]},
+    {"id":"sharbat","cat":"drinks","name_en":"Sharbat","name_fa":"شربت","desc_en":"Rosewater and lemon drink.","desc_fa":"نوشیدنی گلاب و لیمو.","price":4.50,"tags":["veg","gf"]}
+  ]
+}

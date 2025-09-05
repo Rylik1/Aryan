@@ -1,0 +1,52 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Sarah Thompson",
+      "rating": 5,
+      "text_en": "Absolutely authentic Persian cuisine! The Ghormeh Sabzi was exactly like my Iranian friend's mother makes. The atmosphere is warm and welcoming.",
+      "text_fa": "غذای کاملاً اصیل ایرانی! قرمه سبزی دقیقاً مثل غذای مادر دوست ایرانی من بود. فضا گرم و صمیمی است.",
+      "date": "2024-11-15"
+    },
+    {
+      "id": "2",
+      "name": "James Mitchell",
+      "rating": 5,
+      "text_en": "Best Persian restaurant in London! The kebabs are tender and perfectly seasoned. Service is excellent.",
+      "text_fa": "بهترین رستوران ایرانی در لندن! کباب‌ها نرم و کاملاً چاشنی‌دار هستند. سرویس عالی است.",
+      "date": "2024-11-10"
+    },
+    {
+      "id": "3",
+      "name": "Maryam Hosseini",
+      "rating": 5,
+      "text_en": "As an Iranian, I'm impressed! Feels like home. The tahchin is divine and the doogh is perfectly balanced.",
+      "text_fa": "به عنوان یک ایرانی، من تحت تأثیر قرار گرفتم! مثل خانه است. ته‌چین فوق‌العاده است و دوغ کاملاً متعادل است.",
+      "date": "2024-10-28"
+    },
+    {
+      "id": "4",
+      "name": "Emily Roberts",
+      "rating": 4,
+      "text_en": "Wonderful experience! The Fesenjan was rich and complex. Only wish they had more vegetarian options.",
+      "text_fa": "تجربه فوق‌العاده! فسنجان غنی و پیچیده بود. کاش گزینه‌های گیاهی بیشتری داشتند.",
+      "date": "2024-10-20"
+    },
+    {
+      "id": "5",
+      "name": "Ali Rashidi",
+      "rating": 5,
+      "text_en": "Finally, authentic Persian food in Kensington! The saffron rice is perfect and the portions are generous.",
+      "text_fa": "بالاخره، غذای اصیل ایرانی در کنزینگتون! برنج زعفرانی عالی است و پرس‌ها سخاوتمندانه است.",
+      "date": "2024-10-15"
+    },
+    {
+      "id": "6",
+      "name": "David Chen",
+      "rating": 5,
+      "text_en": "Hidden gem! The lamb was melt-in-your-mouth tender. Great value for money and beautiful presentation.",
+      "text_fa": "جواهر پنهان! گوشت بره در دهان آب می‌شد. ارزش عالی برای پول و ارائه زیبا.",
+      "date": "2024-10-01"
+    }
+  ]
+}

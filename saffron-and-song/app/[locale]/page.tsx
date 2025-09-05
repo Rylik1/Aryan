@@ -1,8 +1,8 @@
 import { headers } from "next/headers";
 import Image from "next/image";
 
-export default function LocaleHome() {
-  const hdrs = headers();
+export default async function LocaleHome() {
+  const hdrs = await headers();
   const locale = hdrs.get("x-locale") || "en";
   const dir = hdrs.get("x-dir") || (locale === "fa" ? "rtl" : "ltr");
   return (

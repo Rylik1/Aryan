@@ -19,6 +19,7 @@ export function middleware(req: NextRequest) {
 
   if (!hasLocale) {
     const url = req.nextUrl.clone();
+    // Redirect base "/" to "/en" or "/fa", but preserve content paths under /saffron-and-song
     url.pathname = `/${locale}${pathname}`;
     const res = NextResponse.redirect(url);
     res.headers.set("x-locale", locale);
